@@ -2,7 +2,7 @@
 The code will be made publicly available when the article is accepted.
 
 
-## ⏳ Quick start
+## 🚀 Getting Started
 
 ### 🛠 Dependencies
 Please install the following essential dependencies:
@@ -33,6 +33,8 @@ Please download:
 Pre-processing is performed according to [Ouyang et al.](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation/tree/2f2a22b74890cb9ad5e56ac234ea02b9f1c7a535) and we follow the procedure on their GitHub repository.
 
 
+
+
 ### 🔥 Training
 1. Compile `./data/supervoxels/felzenszwalb_3d_cy.pyx` with cython (`python ./data/supervoxels/setup.py build_ext --inplace`) and run `./data/supervoxels/generate_supervoxels.py`
 2. Download pre-trained ResNet-50 weights [vanilla version](https://download.pytorch.org/models/fcn_resnet50_coco-1167a1af.pth) or [deeplabv3 version](https://download.pytorch.org/models/deeplabv3_resnet50_coco-cd0a2569.pth) and put your checkpoints folder, then replace the absolute path in the code `./models/encoder.py`.  
@@ -45,3 +47,5 @@ Run `./script/test_<direction>.sh`
 
 ## 🥰 Acknowledgements
 Our code is built upon the works of [FAM](https://github.com/primebo1/FAMNet/tree/main),[SSL-ALPNet](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation), [ADNet](https://github.com/sha168/ADNet) and [QNet](https://github.com/ZJLAB-AMMI/Q-Net), we appreciate the authors for their excellent contributions!
+
+
